@@ -318,11 +318,69 @@
 
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
-          <batton class="modal-btn" data-close-modal
-          ><svg type="button"  class="modal-icon">
-            <use href="./images/icon.svg#icon-vector">
+        <button class="modal-btn" data-close-modal>
+            <svg class="modal-icon">
+              <use href="./images/icon.svg#icon-close"></use>
+              </svg>
+          </button>
+          <form class="form" autocomplete="off">
+
+            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+
+              <label class="form-field">
+              <input type="text" 
+              class="form-input" 
+              name="name" 
+              placeholder=" "/>
+              <span class="form-label">Имя</span>
+              <svg class="form-icon">
+            <use href="./images/icon.svg#icon-form-image"> 
             </use></svg>
-          </batton>
+              </label>
+
+            <label class="form-field">
+              <input type="tel"
+              class="form-input" 
+              name="tel"
+              placeholder=" "/>
+              <span for="team-links" class="form-label">Телефон</span>
+              <svg class="form-icon">
+            <use href="./images/icon.svg#icon-form-phone">
+            </use></svg>
+            </label>
+
+            <label class="form-field">
+              <input type="email"
+              class="form-input" 
+              name="mail"
+              placeholder=" "/>
+              <span for="mail" class="form-label">Почта</span>
+              <svg class="form-icon"> 
+            <use href="./images/icon.svg#icon-form-letter">
+            </use></svg>
+            </label>
+
+            <label class="form-field">
+              <textarea
+              class="comment"
+              name="comment"
+              placeholder="Введите текст"
+            ></textarea>
+            <span for="comment" class="form-label">Коментарий</span>
+            </label>
+
+              <label class="form-field contract">
+              <input class="checkbox" type="checkbox" name="policy" />
+              <span class="form-check"></span>
+              <span>Соглашаюсь с рассылкой и принимаю
+                <a style="text-decoration: underline;" target="_blank" 
+                href="https://goit.ua/" 
+                title="Условия договора">Условия договора</a></span>
+              </label>
+
+            <button class="hero-button" type="submit">Отправить</button>
+
+          </form>
       </div>
     </div>
     </main>
@@ -379,6 +437,21 @@
               </svg></a></li>
           </ul>
         </div>
+
+        <form class="form" autocomplete="off">
+              <label class="form-field">
+              <h3 class="features-title">Подпишитесь на рассылку</h3>
+              <input type="email"
+              class="form-input" 
+              name="mail"
+              placeholder="E-mail"/>
+              </label>
+            <button class="hero-button" type="submit"
+            >Подписаться<svg class="social-icon">
+              <use href="./images/icon.svg#icon-telegram"></use>
+              </svg></button>
+          </form>
+
       </div>
     </footer>
 
