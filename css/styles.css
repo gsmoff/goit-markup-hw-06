@@ -788,25 +788,24 @@ footer .container {
     }
 
     .contact-info-list-link {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
     }
     footer .address {
-        margin-top: 20px;
-        
+    margin-top: 20px
     }
     .contact-info-list-item {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--contact-color);
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .contact-info-list.list .contact-info-list-item + .contact-info-list-item {
         margin-top: 9px;
@@ -889,9 +888,14 @@ footer .form-field input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 footer .form .hero-button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     margin-left: 12px;
     margin-top: 48px;
 }
 .hero-button .social-icon {
     margin-left: 10px;
+    width: 24px;
+    height: 24px;
 }
